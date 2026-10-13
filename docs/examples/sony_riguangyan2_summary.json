@@ -1,0 +1,243 @@
+{
+  "case": "Sony A7R V - Riguangyan panorama 2",
+  "note": "Measured local case; photographs and runtime artifacts are not distributed. Values are fit diagnostics, not independent accuracy.",
+  "source_count": 38,
+  "developed_dimensions": [
+    9564,
+    6376
+  ],
+  "alignment_dimensions": [
+    3188,
+    2126
+  ],
+  "raw_policy": {
+    "version": 1,
+    "rawpy": "0.27.1",
+    "wb_rgbg": [
+      2.6650390625,
+      1.0,
+      1.5615234375,
+      1.0
+    ],
+    "auto_bright": false,
+    "bright": 1.0,
+    "gamma": [
+      2.4,
+      12.92
+    ],
+    "color": "sRGB",
+    "bits": 16,
+    "demosaic": "AHD"
+  },
+  "geometry": {
+    "status": "optimized",
+    "graph": {
+      "images": 38,
+      "control_points": 1234,
+      "matched_pairs": 40,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ]
+      ],
+      "component_count": 1,
+      "isolated_images": []
+    },
+    "fit_residuals_equivalent_alignment_pixels": {
+      "count": 1234,
+      "median_px": 1.3783,
+      "mean_px": 1.7616,
+      "p95_px": 4.6799,
+      "max_px": 10.3422
+    },
+    "fit_residuals_equivalent_native_pixels": {
+      "count": 1234,
+      "median_px": 4.1513,
+      "mean_px": 5.2892,
+      "p95_px": 14.1165,
+      "max_px": 30.8738
+    },
+    "lens_groups": [
+      {
+        "first_image_zero_based": 0,
+        "hfov_degrees": 16.6869208293783,
+        "radial_b": 0.0156369811695943
+      },
+      {
+        "first_image_zero_based": 19,
+        "hfov_degrees": 15.6418896388607,
+        "radial_b": 0.0147846267967071
+      },
+      {
+        "first_image_zero_based": 28,
+        "hfov_degrees": 15.6003872694928,
+        "radial_b": 0.0149170680821281
+      }
+    ],
+    "horizon_method": "hugin_straighten",
+    "horizon_global_rotation_degrees": 1.2083015111578024,
+    "horizon_matrix_max_error": 8.07226507859582e-12,
+    "cylindrical_integer_shift_check": {
+      "points": 177,
+      "shift": 72021,
+      "max_error_x_px": 1.00000761449337e-06,
+      "max_error_y_px": 0.0
+    }
+  },
+  "export_status": "exported",
+  "output": {
+    "width": 216065,
+    "height": 4602,
+    "pixels": 994331130,
+    "canvas": [
+      216065,
+      14409
+    ],
+    "crop": [
+      0,
+      216065,
+      5472,
+      10074
+    ],
+    "projection": 1,
+    "hfov": 360.0,
+    "periodic": true,
+    "quality": 97,
+    "chroma_subsampling": "4:4:4",
+    "jpeg_sections": [
+      {
+        "filename": "panorama_full_01_01.jpg",
+        "width": 54016,
+        "height": 4602,
+        "bytes": 88261472,
+        "full_decode_verified": true,
+        "offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "filename": "panorama_full_01_02.jpg",
+        "width": 54016,
+        "height": 4602,
+        "bytes": 96108949,
+        "full_decode_verified": true,
+        "offset": [
+          54016,
+          0
+        ]
+      },
+      {
+        "filename": "panorama_full_01_03.jpg",
+        "width": 54017,
+        "height": 4602,
+        "bytes": 87638191,
+        "full_decode_verified": true,
+        "offset": [
+          108032,
+          0
+        ]
+      },
+      {
+        "filename": "panorama_full_01_04.jpg",
+        "width": 54016,
+        "height": 4602,
+        "bytes": 86118721,
+        "full_decode_verified": true,
+        "offset": [
+          162049,
+          0
+        ]
+      }
+    ],
+    "master": {
+      "filename": "panorama_full_16bit.tif",
+      "width": 216065,
+      "height": 4602,
+      "bits": 16,
+      "bytes": 4717633212,
+      "full_decode_verified": true
+    },
+    "jpg": {
+      "filename": "panorama_overview.jpg",
+      "width": 65000,
+      "height": 1384,
+      "bytes": 33173222,
+      "full_decode_verified": true,
+      "scale_from_native": 0.30083539675560594
+    },
+    "preview": "preview.jpg",
+    "sources_unchanged": true
+  },
+  "verification": {
+    "jpeg_sections_contiguous_and_cover_native_output": true,
+    "master": {
+      "is_bigtiff": true,
+      "width": 216065,
+      "height": 4602,
+      "bits_per_sample": 16,
+      "samples_per_pixel": 3,
+      "icc_profile_present": true
+    },
+    "overview_dimensions": [
+      65000,
+      1384
+    ],
+    "coverage_top": {
+      "width": 216065,
+      "height": 2557,
+      "alpha_min": 65535.0,
+      "fraction_below_65500": 0.0
+    },
+    "coverage_bottom": {
+      "width": 216065,
+      "height": 2557,
+      "alpha_min": 65535.0,
+      "fraction_below_65500": 0.0
+    },
+    "raw": {
+      "raw_files": 38,
+      "all_original_hashes_unchanged": true
+    }
+  },
+  "successful_seam_fallback_count": 2,
+  "last_successful_resume_seconds": 569.6239760000026,
+  "timing_note": "Includes cache reuse; not total RAW-to-panorama pipeline time."
+}

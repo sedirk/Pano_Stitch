@@ -1,0 +1,7 @@
+numpy>=2.3,<3
+Pillow>=11,<13
+scipy>=1.16,<2
+tifffile>=2025.1
+pyvips[binary]>=3.2,<4
+rawpy>=0.27,<0.28
+opencv-python-headless>=4.12,<6
